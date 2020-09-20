@@ -34,6 +34,22 @@ p{
     }
   
 
+    .biljetter{
+
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        box-sizing: border-box;
+        width: 290px;
+        height: 50px;
+        border: 2px black;
+        background: linear-gradient( #ffffff 0%, #9064ffab 100%); ;
+        padding-left: 15px;
+
+        margin-left: 30px;
+        border-radius: 25px;
+    }
+
   }
 
   @media only screen and (max-width: 600px) {
@@ -54,6 +70,21 @@ p{
         border-radius: 25px;
     }
   
+    .biljetter{
+
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        box-sizing: border-box;
+        width: 290px;
+        height: 50px;
+        border: 2px black;
+        background: linear-gradient( #ffffff 0%, #9064ffab 100%); ;
+        padding-left: 15px;
+
+        margin-left: 30px;
+        border-radius: 25px;
+    }
 
   }
 
@@ -243,7 +274,11 @@ padding-left: 30px;
 
 .salda_biljetter{
 
-    font-size: 2.8vh;
+    font-size: 25px;
+    color: rgb(43, 43, 43);
+    padding-left: 30px;
+    padding-top: 5px;
 
 }
+
 
