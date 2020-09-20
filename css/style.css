@@ -104,7 +104,7 @@ grid-template-areas:
 
 header{
 grid-area: he;
-background: linear-gradient( #ffffff 0%, rgba(255, 255, 255, 0.671) 100%); ;
+background: linear-gradient( rgb(46, 33, 79) 0%,rgb(46, 33, 79) 100%); ;
 }
 
 #swish {
@@ -190,7 +190,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 30px;
 padding-left: 20px;
 padding-top: 15px;
-color: rgb(37, 4, 65)
+color: rgb(255, 255, 255)
 
 }
 
