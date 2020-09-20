@@ -1,0 +1,249 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+p{
+
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+  @media only screen and (min-width: 601px) {
+
+    .box_1{
+
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        box-sizing: border-box;
+        width: 290px;
+        height: 250px;
+        border: 2px black;
+        background: linear-gradient( #ffffff 0%, #9064ffab 100%); ;
+        padding-left: 15px;
+        padding-top: 10px;
+        margin: 20px;
+        border-radius: 25px;
+    }
+  
+
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .box_1{
+
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        box-sizing: border-box;
+        width: 290px;
+        height: 250px;
+        border: 2px black;
+        background: linear-gradient( #ffffff 0%, #9064ffab 100%); ;
+        padding-left: 15px;
+        padding-top: 10px;
+        margin: 20px;
+        border-radius: 25px;
+    }
+  
+
+  }
+
+#grid_wrapper{
+
+display: grid;
+width: 100vw;
+height: 100vh;
+grid-template-columns: 3fr 2fr 0.7fr;
+grid-template-rows: 80px 100px 200px 600px;
+grid-template-areas: 
+    "he he na"
+    "s1 s1 s1"
+    "s1 s1 s1"
+    "fo fo fo";
+}
+
+header{
+grid-area: he;
+background: linear-gradient( #ffffff 0%, rgba(255, 255, 255, 0.671) 100%); ;
+}
+
+#swish {
+
+width: 20vh;
+
+}
+
+
+
+
+nav{
+    grid-area: na;
+    background: rgb(89, 66, 216);
+
+    
+}
+
+#logga_ut:hover{
+
+    background:  rgba(46, 33, 79, 0.918)
+    
+    
+}
+
+a:link{
+
+    text-decoration: none;
+}
+
+section{
+    padding:10px
+
+}
+#section_1{
+
+    grid-area: s1;
+    background: rgb(46, 33, 79);
+
+}
+
+
+
+#section_2{
+
+    grid-area: s2;
+    background: #2e214f;
+
+}
+
+#section_3{
+
+    grid-area: s3;
+    background: lightskyblue;
+
+}
+
+footer{
+
+    grid-area: fo;
+  background: linear-gradient( rgb(46, 33, 79) 0%, #070607ab 100%) ;
+}
+
+#logga_ut
+{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 30px;
+box-sizing: border-box;
+height: 80px;
+width: 46.2vw;
+border: 2px black;
+background:  rgb(46, 33, 79);
+padding-left: 20px;
+padding-top: 10px;
+margin: 0;
+}
+
+#header_1
+{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 30px;
+padding-left: 20px;
+padding-top: 15px;
+color: rgb(37, 4, 65)
+
+}
+
+
+
+
+#betalning_knapp{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;
+    border: 2px black;
+    background: rgb(67, 211, 99);
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0;
+    border-radius: 25px;
+    column-gap: 40px;
+
+
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+#telefonnummer{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;
+    border: 2px black;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    border-radius: 25px;
+    padding-left:20px ;
+
+}
+
+#gap{
+
+    height: 10px;
+}
+
+input{
+
+    
+    color: rgb(75, 62, 62);
+    background: rgb(255, 255, 255);
+    border: 0;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#betalning_text{
+
+
+    font-size: 20px;
+    padding-left: 38px;
+
+}
+
+#pris{
+
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgb(73, 62, 62);
+}
+
+.instruktioner{
+
+font-size: 2.8vh;
+padding-left: 30px;
+
+}
+
+.salda_biljetter{
+
+    font-size: 2.8vh;
+
+}
+
